@@ -1,8 +1,11 @@
+import { FaShoppingCart } from "react-icons/fa";
+import { Badge } from "react-bootstrap";
+
 const CartWidget = () => {
   return (
-     <div className="cart-widget">
-      <span>🛒</span>
-      <span className="cart-count">4</span>
+    <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
+      <FaShoppingCart size={24} />
+      <Badge bg="dark">3</Badge>
     </div>
   );
 };
