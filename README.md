@@ -33,5 +33,4 @@ La aplicación funciona como **Single Page Application (SPA)** y mantiene el est
 | `Cart.jsx` | Muestra los productos agregados al carrito, cantidad, subtotal y total. Permite eliminar productos o vaciar el carrito. |
 | `CheckoutForm.jsx` | Formulario de finalización de compra. Crea la orden en Firestore y limpia el carrito. |
 | `CartContext.jsx` | Maneja el estado global del carrito (agregar, eliminar, total, cantidad). |
-
 | `NotFound.jsx` | Página de error 404 para rutas no existentes, incluyendo la sección de Contacto. |
